@@ -20,8 +20,8 @@ body, h1, p, a {
   }
   
   .profile-picture {
-    width: 300px; /* Increase the width for a larger image */
-    height: 280px; /* Increase the height for a larger image */
+    width: 240px; /* Increase the width for a larger image */
+    height: 220px; /* Increase the height for a larger image */
     border-radius: 20px; /* Add border radius for a rounded rectangle shape */
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -66,5 +66,16 @@ body, h1, p, a {
   
   .social-links a:hover {
     color: #005e8c;
+  }
+
+  @media (max-width: 768px) {
+    .profile-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-info {
+      text-align: center;
+    }
   }
   

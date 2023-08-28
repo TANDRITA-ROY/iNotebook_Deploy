@@ -25,6 +25,7 @@ body, h1, p, a {
     border-radius: 20px; /* Add border radius for a rounded rectangle shape */
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
   }
   
   .profile-section h1 {
